@@ -5,7 +5,7 @@ $(document).ready(function(){
     $(".loading-screen-first-text").addClass("animate__fadeOutDown");
     
     setTimeout(function(){
-      $(".loading-screen-first-text").removeClass("animate__fadeOutDown animate__fadeInDown animate__delay-0.5s");
+      $(".loading-screen-first-text").removeClass("animate__fadeOutDown animate__fadeInDown animate__delay-1s");
       $(".loading-screen-first-text").empty();
       $(".loading-screen-first-text").append("<h3>À Không</h3>")
       $(".loading-screen-first-text").addClass("animate__fadeInDown");
