@@ -8,7 +8,7 @@
 
 .loading-screen{
   position: absolute;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   z-index: 1;
   background: #f2709c;  /* fallback for old browsers */
@@ -242,7 +242,7 @@ color: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edg
   .buddy{
     width: 300px;
     height: 430px;
-    top: 20%;
+    top: 15%;
     left: 8%;
   }
   .buddy-icon{
