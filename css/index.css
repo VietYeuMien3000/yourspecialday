@@ -25,7 +25,7 @@
 }
 
 .loading-screen-first-text{
-  width: 200px;
+  width: 180px;
 }
 
 
@@ -34,6 +34,7 @@
   background: #f2709c;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-shadow: unset !important;
 }
 
 #container {
@@ -119,7 +120,7 @@
 }
 .budy-text{
   position: absolute;
-  top: 450px;
+  top: 440px;
   left: 50px;
   width: 80%;
 }
@@ -128,13 +129,14 @@ h1{
   font-size: 24px;
   font-weight:500;
   text-align: left;
-
+  text-shadow: 0 1px 0 #f3f3f3;
 }
 
 h2{
   font-size: 20px;
   font-weight: 300;
   text-align: start;
+  text-shadow: 0 1px 0 #f3f3f3;
 }
 
 h3{
@@ -239,9 +241,35 @@ color: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edg
 @media only screen and (max-width: 500px){
   .buddy{
     width: 300px;
-    height: 400px;
+    height: 430px;
+    top: 20%;
+    left: 8%;
+  }
+  .buddy-icon{
+    width: 70%;
   }
 
+  .budy-text{
+    top: 320px;
+    left: 35px;
+  }
+
+  h1{
+    font-size: 22px;
+  }
+
+  h2{
+    font-size: 18px;
+  }
+
+  p{
+    font-size: 14px;
+  }
+
+  .info-hidden{
+    width: 85%;
+    bottom: 65px;
+  }
   .avatar{
     width: 290px;
     height: 380px;

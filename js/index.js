@@ -18,12 +18,14 @@ $(document).ready(function(){
     setTimeout(function(){
       $(".loading-screen-first-text").removeClass("animate__fadeOutDown animate__fadeInDown");
       $(".loading-screen-first-text").empty();
-      $(".loading-screen-first-text").append("<h3>TinViet</h3>")
+      $(".loading-screen-first-text").append("<h3>TinAnhViet chứ &#9996;</h3>")
       $(".loading-screen-first-text").addClass("animate__fadeInDown");
       setTimeout(function(){
         $(".loading-screen").addClass("animate__animated animate__fadeOut")
         $(".container").addClass("animate__animated animate__fadeIn")
-        setTimeout(function(){$(".loading-screen").remove();},500)
+        setTimeout(function(){$(".loading-screen").remove();
+        $(".first-info").addClass("animate__animated animate__bounce");
+      },500)
       },2000)
     }, 1000); 
   }, 3500); 
@@ -100,14 +102,9 @@ $(document).ready(function(){
     } 
     });
 
-  
+  //info on click
 
   $(".info-hidden").hide();
-
-  // $(".info-click").click(function(){
-  //   $(this).parent().parent().hide();
-  //   $(this).parent().parent().next().show();
-  // })
 
   $(document).mouseup(function(e) 
   { 
